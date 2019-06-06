@@ -5,10 +5,103 @@
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
 
-    <title>Travel Quiz
-    </title>
+    <title>Travel Quiz</title>
   </head>
   <body>
+    <div class="quiz">
+      <form>
+        <div class="q1">
+          <p>Which do you prefer?</p>
+          <div>
+            <label>
+              <input type="radio" name="scenery" value="Thailand" checked>
+              Beaches
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="scenery" value="Mexico">
+              Jungles
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="scenery" value="Russia">
+              Mountains
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="scenery" value="Saudi Arabia">
+              Deserts
+            </label>
+          </div>
+        </div>
+
+
+        <div class="q2">
+          <p>Which do you prefer?</p>
+          <div>
+            <label>
+              <input type="radio" name="food" value="Thailand" checked>
+              Thai Food
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="Mexico">
+              Mexican Food
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="Russia">
+              Vodka
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="Saudi Arabia">
+              Middle Eastern Food
+            </label>
+          </div>
+        </div>
+
+
+        <div class="q3">
+          <p>Which do you prefer?</p>
+          <div>
+          <label>
+            <input type="radio" name="animal" value="Thailand" checked>
+            Elephants
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="Mexico">
+            Donkeys
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="Russia">
+            Bears
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="Saudi Arabia">
+            Camels
+          </label>
+        </div>
+      </div>
+    </div>
+    <button type="button" name="button">Where to?</button>
+  </form>
+
+  <div class="results">
+    <h3>We've determined that you'd enjoy traveling to <span="destination"></span> the best!</h3>
+  </div>
 
   </body>
 </html>
